@@ -11,7 +11,10 @@ public class SpringbootJpaThyDemoApplicationTests {
 
     //add by lhq
     public void fun1(){
-
+    System.out.println("hello world");
+    if (true){
+        System.out.println("你好");
+    }
     }
 
 
