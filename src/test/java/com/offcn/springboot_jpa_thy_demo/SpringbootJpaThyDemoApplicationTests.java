@@ -9,6 +9,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SpringbootJpaThyDemoApplicationTests {
 
+    //add by lhq
+    public void fun1(){
+
+    }
+
+
     @Test
     public void contextLoads() {
     }

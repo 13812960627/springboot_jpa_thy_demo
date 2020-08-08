@@ -17,6 +17,9 @@ import java.util.List;
 @Controller
 @RequestMapping("/user")
 public class UserController {
+
+
+
     @Autowired
     private UserService userService;
 
@@ -28,7 +31,7 @@ public class UserController {
     public String findUserList(Model model){
       List userList = userService.findUserList();
       model.addAttribute("userList",userList);
-      return "list
+      return "list";
     }
         @RequestMapping("/toAdd")
         public String toAdd(){
