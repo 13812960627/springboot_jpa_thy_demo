@@ -22,13 +22,13 @@ public class UserController {
 
 
     /*
-         查询用户列表
-     */
+         查询用户列表 add by
+*/
     @GetMapping("/")
     public String findUserList(Model model){
       List userList = userService.findUserList();
       model.addAttribute("userList",userList);
-      return "list";
+      return "list
     }
         @RequestMapping("/toAdd")
         public String toAdd(){
